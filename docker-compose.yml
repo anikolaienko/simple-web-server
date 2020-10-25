@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+    server:
+        image: simple-server
+        ports:
+            - 8000:8000
